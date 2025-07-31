@@ -1,0 +1,24 @@
+{
+  "basicTransfer": {
+    "fromAccount": "Demo Multi Signatory Account",
+    "toAccount": "Demo My Mastercard",
+    "amount": "100.00",
+    "description": "Basic Transfer"
+  },
+  "scheduledTransfer": {
+    "fromAccount": "Demo Multi Signatory Account",
+    "toAccount": "Demo My Mastercard", 
+    "amount": "50.00",
+    "description": "Scheduled Transfer",
+    "date": "2025-08-22"
+  },
+  "recurringTransfer": {
+    "fromAccount": "Demo Multi Signatory Account",
+    "toAccount": "Demo My Mastercard",
+    "amount": "25.00", 
+    "description": "Recurring Transfer",
+    "startDate": "2025-09-01",
+    "frequency": "Week",
+    "duration": "Indefinitely"
+  }
+}

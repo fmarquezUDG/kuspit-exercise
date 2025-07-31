@@ -1,0 +1,106 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-07-31T16:25:10.146Z",
+    "end": "2025-07-31T16:25:21.093Z",
+    "duration": 10947,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "9224664e-b98b-46c3-aadd-037f6cd48aa4",
+      "title": "",
+      "fullFile": "cypress\\e2e\\scheduled-transfers.cy.js",
+      "file": "cypress\\e2e\\scheduled-transfers.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "01672848-3c27-47fd-a7df-226167ce8c73",
+          "title": "TC-TRANS-002: Scheduled Transfer",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Should perform scheduled transfer",
+              "fullTitle": "TC-TRANS-002: Scheduled Transfer Should perform scheduled transfer",
+              "timedOut": null,
+              "duration": 10884,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.fixture('transfer-data').then(data => {\n  cy.performScheduledTransfer(data.scheduledTransfer);\n});",
+              "err": {},
+              "uuid": "4b9eb5d8-e3bf-4dd1-a804-dee8b753c3e7",
+              "parentUUID": "01672848-3c27-47fd-a7df-226167ce8c73",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "4b9eb5d8-e3bf-4dd1-a804-dee8b753c3e7"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 10884,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "[name]",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/reports",
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "reportFilename": "[name]"
+      },
+      "version": "6.2.0"
+    }
+  }
+}
