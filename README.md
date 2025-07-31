@@ -45,10 +45,20 @@ Incluye tres casos principales: transferencias básicas, recurrentes y programad
   ```bash
   npm run cypress:open
   ```
+  o   
 
+  ```bash
+  npx cypress open 
+  ```
 - Para ejecutar todos los casos de prueba en modo headless:
   ```bash
   npm run test:all
+  ```
+
+  o   
+
+  ```bash
+  npx cypress run 
   ```
 
 - Para ejecutar un caso específico:
