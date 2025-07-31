@@ -1,4 +1,3 @@
-// cypress/support/pages/TransferPage.js
 export class TransferPage {
  static elements = {
    moveMoneyBtn: 'span.chakra-yqpppt:contains("Move Money")',

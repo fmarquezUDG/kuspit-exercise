@@ -1,17 +1,14 @@
-// cypress/support/pages/ConfirmationPage.js
 export class ConfirmationPage {
   static elements = {
     confirmBtn: '#Transfer_Confirm_Submit',
     okBtn: '#Modal_Ok',
     interruptionMsg: '#alert-desc',
     
-    // Elementos específicos de confirmación
     transferAmount: 'span.transaction-amount.transfer',
     transferDate: '[data-semantic="detail"]',
     transferDescription: '[data-semantic="label"]'
   }
 
-  // Validar datos en página de confirmación
   static validateConfirmationData(data) {
     cy.url().should('include', '/banking/move_money/transfer/confirm')
     

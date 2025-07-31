@@ -88,4 +88,4 @@ Incluye tres casos principales: transferencias básicas, recurrentes y programad
 
 ## Autor
 
-Angel Francisco Sanchez de Tagle Marquez
+Angel Francisco Sánchez de Tagle Márquez
